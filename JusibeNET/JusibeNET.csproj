@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Jusibe.NET</PackageId>
+    <Authors>Ogbo Chidozie</Authors>
+    <Company>Afrivelle Technologies</Company>
+    <Product>Jusibe.NET</Product>
+    <Description>.NET Client Library for Jusibe SMS REST API Service https://jusibe.com</Description>
+    <PackageProjectUrl>https://github.com/dozieogbo/jusibe.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dozieogbo/jusibe.net</RepositoryUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Copyright>Copyright © Ogbo Chidozie 2018</Copyright>
+    <PackageTags>jusibe api sms</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.6" />
+  </ItemGroup>
 
 </Project>

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JusibeNET", "JusibeNET\JusibeNET.csproj", "{3832AD3C-F39F-4547-BE04-342BAEF8CF72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JusibeNET.Example", "JusibeNET.Example\JusibeNET.Example.csproj", "{3E9F3889-9C20-4639-A8ED-F28F42C42AA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3832AD3C-F39F-4547-BE04-342BAEF8CF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3832AD3C-F39F-4547-BE04-342BAEF8CF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3832AD3C-F39F-4547-BE04-342BAEF8CF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9F3889-9C20-4639-A8ED-F28F42C42AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9F3889-9C20-4639-A8ED-F28F42C42AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9F3889-9C20-4639-A8ED-F28F42C42AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9F3889-9C20-4639-A8ED-F28F42C42AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
