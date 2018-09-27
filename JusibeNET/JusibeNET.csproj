@@ -9,7 +9,7 @@
     <Description>.NET Client Library for Jusibe SMS REST API Service https://jusibe.com</Description>
     <PackageProjectUrl>https://github.com/dozieogbo/jusibe.net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dozieogbo/jusibe.net</RepositoryUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/dozieogbo/jusibe.net/blob/master/LICENSE.md</PackageLicenseUrl>
     <Copyright>Copyright © Ogbo Chidozie 2018</Copyright>
     <PackageTags>jusibe api sms</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
