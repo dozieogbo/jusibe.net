@@ -24,22 +24,22 @@ To initialize, use:
 Available methods for use are:
 ```cs
 //Send a message to one number
-SendSMS(string from, string to, string message)
+SendSMSAsync(string from, string to, string message)
 
 //Send message to multiple numbers
-SendBulkSMS(string from, List<string> to, string message)
+SendBulkSMSAsync(string from, List<string> to, string message)
 
 //Check status of bulk SMS message
-CheckBulkSMSStatus(string bulkMessageId)
+CheckBulkSMSStatusAsync(string bulkMessageId)
 
 //Check status of SMS
-CheckSMSStatus(string messageId)
+CheckSMSStatusAsync(string messageId)
 
 //Check available credits
-CheckAvaliableCredits()
+CheckAvaliableCreditsAsync()
 ```
 
-**NB:** All methods are asynchronous and.
+**NB:** All methods are asynchronous to avoid blocking of the main thread.
 
 Examples of usage can be found [here](https://github.com/dozieogbo/jusibe.net/blob/master/JusibeNET.Example/Program.cs)
 
@@ -54,4 +54,4 @@ Chidozie Ogbo.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://raw.githubusercontent.com/dozieogbo/jusibe.net/master/LICENSE.md) for more information.
